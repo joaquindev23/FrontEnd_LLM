@@ -1,15 +1,15 @@
 import React from "react";
 
-type Props = { children: React.ReactNode; isOn: boolean };
+type Props = { children: React.ReactNode; isOn: boolean; isShadow?: boolean };
 
-export default function IconBtn({ children, isOn }: Props) {
+export default function IconBtn({ children, isOn, isShadow }: Props) {
   return (
-    <div
-      className={`${
-        isOn ? "bg-core-secBg" : "bg-core-primary shadow-lg shadow-core-primary"
+    <button
+      className={`${isOn ? "bg-core-primary  " : "bg-core-secBg"} ${
+        isShadow && "shadow-lg shadow-core-primary"
       } size-8 rounded-md flex items-center justify-center`}
     >
       {children}
-    </div>
+    </button>
   );
 }
