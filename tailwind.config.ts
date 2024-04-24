@@ -20,6 +20,7 @@ const config: Config = {
         'core-text':"#EEEEEE",
         'core-secText':'#ABABAB',
         'core-primary':'#10A37F',
+        'core-bbBg':'#4B4F5B'
         
       }
     },
