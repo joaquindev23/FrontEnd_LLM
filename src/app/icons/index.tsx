@@ -2,6 +2,35 @@ import React from "react";
 
 type Props = {};
 
+export function Add({}: Props) {
+  return (
+    <>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="14"
+        height="14"
+        viewBox="0 0 14 14"
+        fill="none"
+      >
+        <path
+          d="M7 1.12354V12.8467"
+          stroke="white"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M12.8672 6.98438H1.13281"
+          stroke="white"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </>
+  );
+}
+
 export default function Chat({}: Props) {
   return (
     <svg
@@ -17,6 +46,70 @@ export default function Chat({}: Props) {
         stroke-width="1.2"
         stroke-linecap="round"
         stroke-linejoin="round"
+      />
+    </svg>
+  );
+}
+
+export function IAs({}: Props) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="19"
+      height="19"
+      viewBox="0 0 19 19"
+      fill="none"
+    >
+      <line
+        x1="1"
+        y1="2.35291"
+        x2="17.7077"
+        y2="2.35291"
+        stroke="white"
+        stroke-opacity="0.5"
+        stroke-width="2"
+        stroke-linecap="round"
+      />
+      <line
+        x1="1"
+        y1="9.05884"
+        x2="17.7077"
+        y2="9.05884"
+        stroke="#999999"
+        stroke-opacity="0.8"
+        stroke-width="2"
+        stroke-linecap="round"
+      />
+      <line
+        x1="1"
+        y1="15.7646"
+        x2="17.7077"
+        y2="15.7646"
+        stroke="white"
+        stroke-opacity="0.5"
+        stroke-width="2"
+        stroke-linecap="round"
+      />
+      <ellipse
+        cx="12.6554"
+        cy="2.79412"
+        rx="2.75113"
+        ry="2.79412"
+        fill="white"
+      />
+      <ellipse
+        cx="6.05191"
+        cy="9.50005"
+        rx="2.75113"
+        ry="2.79412"
+        fill="white"
+      />
+      <ellipse
+        cx="12.6554"
+        cy="16.2059"
+        rx="2.75113"
+        ry="2.79412"
+        fill="white"
       />
     </svg>
   );
