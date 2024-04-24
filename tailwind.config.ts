@@ -15,7 +15,7 @@ const config: Config = {
       },
       colors:{
         'core-bg':'#1E1F22',        
-        'core-secBg':'#3F424A',
+        'core-secBg':'#282A2E',
         'core-thBg':'#383B42',
         'core-text':"#EEEEEE",
         'core-secText':'#ABABAB',
