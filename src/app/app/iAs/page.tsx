@@ -8,18 +8,16 @@ type Props = {};
 
 export default function IAs({}: Props) {
   return (
-    <main className="flex h-full bg-core-secBg w-full">
-      <ChatSideBar title="Mis Chats">
-        <div className="flex flex-col gap-3">
-          <IACard />
-          <IACard isSelected />
+    <main className="flex bg-core-secBg w-full h-full max-sm:justify-center">
+      <ChatSideBar title="Mis IAs">
           <IACard />
           <IACard />
-        </div>
+          <IACard />
+          <IACard />
       </ChatSideBar>
       <ChatContiner>
         <div className="flex items-center">
-          <button className="bg-core-primary w-40 h-full rounded-xl mx-10 text-core-text ">+ Add New</button>
+          <button className="bg-core-primary w-40 h-full rounded-xl mx-10 max-sm:mx-2 max-sm:w-20 max-sm:text-sm text-core-text ">+ Add New</button>
           <ChatSender />
         </div>
       </ChatContiner>

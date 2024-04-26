@@ -8,17 +8,16 @@ type Props = {};
 
 export default function MyChats({}: Props) {
   return (
-    <main className="flex h-full bg-core-secBg w-full">
+    <main className="flex bg-core-secBg w-full h-full max-sm:justify-center">
       <ChatSideBar title="Mis Chats">
-        <div className="flex flex-col gap-3">
-          <ChatsCard />
-          <ChatsCard isSelected />
+          <ChatsCard id="1" />
           <ChatsCard />
           <ChatsCard />
-        </div>
+          <ChatsCard /> 
       </ChatSideBar>
       <ChatContiner>
-          <ChatSender /></ChatContiner>
+        <ChatSender />
+      </ChatContiner>
     </main>
   );
 }
