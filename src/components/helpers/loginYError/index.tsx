@@ -1,4 +1,3 @@
-"use client"
 import React from "react";
 import Saly from "@/assets/Saly-10.svg"
 import Image from "next/image";
@@ -21,25 +20,24 @@ export const ContentMain = ({ children }: { children: React.ReactNode }) => {
     )
   }
 
-export const ContentLogo = ({ children }: { children: React.ReactNode }) => {
+export const ContentLogo = ({ children }: { children: React.ReactNode } ) => {
     return (
-      <div className="flex flex-col justify-end bg-black border-2 rounded-2xl border-black w-1/2 h-full">
+      <>
+        <div className="flex flex-col justify-end bg-black border-2 rounded-2xl border-black w-1/2 h-full">
               <div className="flex justify-center w-1-4 h-[800px]">
                 <Image
                   src={Saly}
                   alt="saly"
                   width={521}
                   height={1000}
+                  priority={false}
                 />
               </div>
               <div className="flex flex-col w-1-4 space-y-2 h-[30%] pl-20">
                 {children}
               </div>  
          </div>
+      </>
+      
     )
-    return {
-      DivMain,
-      ContentMain,
-      ContentLogo,
-    }
   }
