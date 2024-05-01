@@ -23,7 +23,7 @@ export const ContentMain = ({ children }: { children: React.ReactNode }) => {
 export const ContentLogo = ({ children }: { children: React.ReactNode }) => {
     return (
         <>
-            <div className="flex flex-col justify-end bg-black border-2 rounded-2xl border-black w-1/2 h-full">
+            <div className="flex flex-col justify-end bg-black border-2 rounded-2xl border-black w-1/2 h-full bg-core-bg">
                 <div className="flex justify-center w-1-4 h-[800px]">
                     <Image
                         src="/assets/Saly-10.svg"
