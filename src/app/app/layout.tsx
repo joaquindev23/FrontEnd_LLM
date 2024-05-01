@@ -16,8 +16,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <main className=" flex flex-row w-full bg-core-secBg h-screen max-sm:max-h-screen max-sm:overflow-hidden max-sm:flex-col-reverse">
+      <body className={inter.className+" bg-core-secBg"}>
+        <main className=" flex flex-row w-full max-w-[1440px] m-auto bg-core-secBg h-screen max-sm:max-h-screen max-sm:overflow-hidden max-sm:flex-col-reverse">
           <SideBar />
           {children}
         </main>

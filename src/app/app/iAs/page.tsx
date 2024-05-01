@@ -8,7 +8,7 @@ type Props = {};
 
 export default function IAs({}: Props) {
   return (
-    <main className="flex bg-core-secBg w-full h-full max-sm:justify-center">
+    <section className="flex bg-core-secBg w-full h-full max-sm:justify-center">
       <ChatSideBar title="Mis IAs">
           <IACard />
           <IACard />
@@ -21,6 +21,6 @@ export default function IAs({}: Props) {
           <ChatSender />
         </div>
       </ChatContiner>
-    </main>
+    </section>
   );
 }

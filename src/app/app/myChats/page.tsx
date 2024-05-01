@@ -8,7 +8,7 @@ type Props = {};
 
 export default function MyChats({}: Props) {
   return (
-    <main className="flex bg-core-secBg w-full h-full max-sm:justify-center">
+    <section className="flex bg-core-secBg w-full h-full max-sm:justify-center">
       <ChatSideBar title="Mis Chats">
           <ChatsCard id="1" />
           <ChatsCard />
@@ -18,6 +18,6 @@ export default function MyChats({}: Props) {
       <ChatContiner>
         <ChatSender />
       </ChatContiner>
-    </main>
+    </section>
   );
 }

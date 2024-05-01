@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export const DivMain = ({ children }: { children: React.ReactNode }) => {
     return (
-        <div className="flex px-4 py-4 items-center justify-center bg-white w-full h-[900px]">
+        <div className="flex px-4 py-4 items-center justify-center relative bg-white w-full h-[900px]">
             <div className="flex w-24 top-0 left-0 justify-center absolute pt-7 h-14 text-xl font-semibold">
                 <h1>Logo</h1>
             </div>
