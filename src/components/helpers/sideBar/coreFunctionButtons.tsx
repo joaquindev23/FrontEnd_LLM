@@ -18,7 +18,7 @@ export default function CoreFunctionButtons({}: Props) {
   const routeIsOn = (route: string) => path == route;
 
   return (
-    <div className="flex flex-col gap-10">
+    <div className="flex flex-col gap-10 max-sm:flex-row max-sm:w-full max-sm:gap-0 max-sm:justify-around">
       <Link href={routes.chat}>
         <IconBtn isOn={routeIsOn(routes.chat)} isShadow={routeIsOn(routes.chat)}>
           <Chat />
