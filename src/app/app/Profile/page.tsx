@@ -1,4 +1,4 @@
-import ProfileCard from "@/components/profile/profilecard"
+import ProfileCard from "@/components/Profile/Profilecard" 
 import React from "react";
 
 type Props = {};
