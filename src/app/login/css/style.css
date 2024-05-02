@@ -4,12 +4,22 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.field {
-    border-bottom: 2px solid #999999;
+.input-box {
+    position: relative;
 }
 
-input:focus {
+.input-box input {
+    border-bottom: 2px solid #999999;
+    padding-left: 25px;
+}
+
+.input-box input:focus {
     outline: none;
+    border-color: #000842;
+}
+
+.input-box .icon {
+    position: absolute;
 }
 
 input::placeholder {

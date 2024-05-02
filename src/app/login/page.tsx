@@ -1,5 +1,3 @@
-'use client';
-
 import { ContentLogo, ContentMain, DivMain } from "@/components/helpers/loginRegisterVerificacion";
 import Link from "next/link";
 import React from "react";
@@ -12,24 +10,24 @@ export default function Login() {
         <>
             <DivMain>
                 <ContentMain>
-                    <div className="flex flex-col justify-center items-start relative w-3/5">
+                    <div className="flex flex-col justify-center items-start md:relative md:w-3/5 max-md:my-10">
                         <h2 className="text-3xl font-medium mb-5">Iniciar sesión</h2>
                         <p className="text-base font-normal">Si no tienes una cuenta regístrate</p>
                         <p className="text-base font-normal">Puedes <Link className="font-semibold text-blue-500" href={"/register"}>Registrarte Aquí!</Link></p>
 
                         <form action="" className="mt-12 w-full">
-                            <div className="flex flex-col mb-12 field">
+                            <div className="flex flex-col mb-12">
                                 <label htmlFor="email" className="font-medium text-sm text-gray-400 mb-2">Email</label>
-                                <div className="flex">
-                                    <Image className="me-2" src="/assets/email.svg" alt="email" width={17} height={13} />
+                                <div className="flex input-box items-center">
+                                    <Image className="me-2 icon" src="/assets/email.svg" alt="email" width={17} height={13} />
                                     <input className="w-full" type="email" name="email" id="email" placeholder="Introduce tu dirección de correo electrónico" />
                                 </div>
                             </div>
-                            <div className="flex flex-col mb-4 field">
+                            <div className="flex flex-col mb-4">
                                 <label htmlFor="password" className="font-medium text-sm text-gray-400 mb-2">Password</label>
-                                <div className="flex">
-                                    <Image className="me-2" src="/assets/lock.svg" alt="email" width={17} height={17} />
-                                    <input type="password" name="password" id="password" placeholder="Ingresa tu contraseña" />
+                                <div className="flex input-box items-center">
+                                    <Image className="me-2 icon" src="/assets/lock.svg" alt="email" width={17} height={17} />
+                                    <input className="w-full" type="password" name="password" id="password" placeholder="Ingresa tu contraseña" />
                                 </div>
                             </div>
                             <div className="flex justify-between items-center mb-12">
@@ -52,7 +50,7 @@ export default function Login() {
                             </Link>
                         </div>
                     </div>
-                </ContentMain>,
+                </ContentMain>
                 <ContentLogo>
                     <h1 className="text-white text-4xl font-semibold">Ingreso de Usuario</h1>
                     <h3 className="text-white text-xl font-light">Inicia sesión con tu cuenta registrada</h3>
