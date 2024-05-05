@@ -4,6 +4,7 @@ import {
   DivMain,
 } from "@/components/helpers/loginRegisterVerificacion";
 import { Metadata } from "next";
+import Link from "next/link";
 import React from "react";
 
 export default function Custom404() {
@@ -18,7 +19,7 @@ export default function Custom404() {
             <h1 className="text-9xl font-extrabold">404</h1>
             <h3 className="text-base font-medium">Página no encontrada</h3>
             <div className="flex rounded-full w-full h-[53px] bg-black justify-center items-center">
-              <button className="text-white">Volver a inicio</button>
+              <Link href={"/login"} className="text-white">Volver a inicio</Link>
             </div>
           </div>
         </ContentMain>
