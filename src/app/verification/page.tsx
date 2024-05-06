@@ -18,7 +18,7 @@ export default function Login() {
                         <span className="block mt-6">Por favor verifique su cuenta para poder empezar a usar el sistema.</span></p>
 
 
-                        <button className="flex rounded-full w-full h-[53px] bg-black justify-center items-center shadow-xl text-white font-medium text-base" type="submit">Ingresar</button>
+                        <Link href={"/login"} className="flex rounded-full w-full h-[53px] bg-black justify-center items-center shadow-xl text-white font-medium text-base" type="submit">Ingresar</Link>
 
                     </div>
                 </ContentMain>,
