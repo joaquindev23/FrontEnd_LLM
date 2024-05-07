@@ -16,9 +16,7 @@ export default function ChatSideBar({ children, title }: Props) {
           <IconBtn isOn={true}>
             <Add />
           </IconBtn>
-          <IconBtn isOn={false}>
-            <span className="text-core-text pb-2 font-bold">...</span>
-          </IconBtn>
+         
         </div>
         
       </div>
