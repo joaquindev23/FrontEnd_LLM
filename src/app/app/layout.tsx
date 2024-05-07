@@ -15,13 +15,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className+" bg-core-secBg"}>
-        <main className=" flex flex-row w-full max-w-[1440px] m-auto bg-core-secBg h-screen max-sm:max-h-screen max-sm:overflow-hidden max-sm:flex-col-reverse">
-          <SideBar />
-          {children}
-        </main>
-      </body>
-    </html>
+    <section className=" flex flex-row w-full max-w-[1440px] m-auto bg-core-secBg h-screen max-sm:max-h-screen max-sm:overflow-hidden max-sm:flex-col-reverse">
+      <SideBar />
+      {children}
+    </section>
   );
 }
