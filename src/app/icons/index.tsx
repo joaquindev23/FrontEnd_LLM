@@ -18,6 +18,104 @@ export function SendArrow() {
   );
 }
 
+export function PeperClip() {
+  return (
+    <svg version="1.1"
+
+      xmlns="http://www.w3.org/2000/svg"
+      width="32px"
+      height="32px"
+      viewBox="0,0,256,256">
+      <g
+          className="fill-[#ababab] group-hover:fill-core-primary"
+        fill-rule="nonzero"
+        stroke="none"
+        stroke-width="1"
+        stroke-linecap="butt"
+        stroke-linejoin="miter"
+        stroke-miterlimit="10"
+        stroke-dasharray=""
+        stroke-dashoffset="0"
+        font-family="none"
+        font-weight="none"
+        font-size="none"
+        text-anchor="none">
+        <g
+          transform="scale(8,8)">
+          <path
+            d="M21,4c-1.39062,0 -2.75781,0.53906 -3.8125,1.59375l-9.375,9.375c-2.97266,2.97266 -2.97266,7.80859 0,10.78125c2.97266,2.97266 7.80859,2.97266 10.78125,0l6.25,-6.25l-1.40625,-1.40625l-6.25,6.25c-2.20703,2.20703 -5.76172,2.20703 -7.96875,0c-2.20703,-2.20703 -2.20703,-5.76172 0,-7.96875l9.375,-9.375c1.34375,-1.34375 3.5,-1.34375 4.84375,0c1.34375,1.34375 1.34375,3.5 0,4.84375l-9.375,9.375c-0.48047,0.48047 -1.23828,0.48047 -1.71875,0c-0.48047,-0.48047 -0.48047,-1.23828 0,-1.71875l8.59375,-8.59375l-1.40625,-1.40625l-8.59375,8.59375c-1.24609,1.24609 -1.24609,3.28516 0,4.53125c1.24609,1.24609 3.28516,1.24609 4.53125,0l9.375,-9.375c2.10938,-2.10937 2.10938,-5.54687 0,-7.65625c-1.05469,-1.05469 -2.45312,-1.59375 -3.84375,-1.59375z">
+          </path>
+        </g>
+      </g>
+    </svg>
+  )
+}
+
+export function NewSendArrow() {
+  return (
+    <svg version="1.1"
+      xmlns="http://www.w3.org/2000/svg"
+      width="48px"
+      height="48px"
+      viewBox="0,0,256,256">
+      <g
+      className="fill-[#ababab] group-hover:fill-core-primary"
+        fill-rule="nonzero"
+        stroke="none"
+        stroke-width="1"
+        stroke-linecap="butt"
+        stroke-linejoin="miter"
+        stroke-miterlimit="10"
+        stroke-dasharray=""
+        stroke-dashoffset="0"
+        font-family="none"
+        font-weight="none"
+        font-size="none"
+        text-anchor="none">
+        <g
+          transform="scale(5.33333,5.33333)">
+          <path
+            d="M5.44531,4.00195c-0.48431,0.01805 -0.93007,0.26896 -1.19676,0.67363c-0.26668,0.40468 -0.32144,0.91326 -0.14699,1.36543l5.5,14.20117c0.1926,0.4957 0.63325,0.85238 1.1582,0.9375l14.94141,2.42578c0.37223,0.06035 0.33594,0.16781 0.33594,0.39453c0,0.22672 0.03629,0.33418 -0.33594,0.39453l-14.94141,2.42578c-0.52495,0.08512 -0.9656,0.4418 -1.1582,0.9375l-5.5,14.20117c-0.22282,0.57754 -0.06801,1.23263 0.38976,1.64933c0.45777,0.4167 1.12449,0.50944 1.6786,0.23348l37,-18.5c0.50825,-0.2541 0.82931,-0.77356 0.82931,-1.3418c0,-0.56823 -0.32106,-1.08769 -0.82931,-1.3418l-37,-18.5c-0.22466,-0.11188 -0.47381,-0.1656 -0.72461,-0.15625z">
+          </path>
+        </g>
+      </g>
+    </svg>
+  )
+}
+
+export function NewIAMagic() {
+  return (
+    <svg
+      version="1.1"
+      xmlns="http://www.w3.org/2000/svg"
+      width="48px"
+      height="48px"
+      viewBox="0,0,256,256">
+      <g
+         className="fill-[#ababab] group-hover:fill-core-primary"
+        fill-rule="nonzero"
+        stroke="none"
+        stroke-width="1"
+        stroke-linecap="butt"
+        stroke-linejoin="miter"
+        stroke-miterlimit="10"
+        stroke-dasharray=""
+        stroke-dashoffset="0"
+        font-family="none"
+        font-weight="none"
+        font-size="none"
+        text-anchor="none" >
+        <g
+          transform="scale(5.33333,5.33333)">
+          <path
+            d="M31.5,41c-0.651,0 -1.229,-0.421 -1.428,-1.041l-2.927,-9.104l-9.104,-2.927c-0.62,-0.199 -1.041,-0.777 -1.041,-1.428c0,-0.651 0.421,-1.229 1.041,-1.428l9.104,-2.927l2.927,-9.104c0.199,-0.62 0.777,-1.041 1.428,-1.041c0.651,0 1.229,0.421 1.428,1.041l2.927,9.104l9.104,2.927c0.62,0.199 1.041,0.777 1.041,1.428c0,0.651 -0.421,1.229 -1.041,1.428l-9.104,2.927l-2.927,9.104c-0.199,0.62 -0.777,1.041 -1.428,1.041zM12,23c-0.646,0 -1.219,-0.413 -1.423,-1.025l-1.888,-5.664l-5.664,-1.888c-0.612,-0.204 -1.025,-0.777 -1.025,-1.423c0,-0.646 0.413,-1.219 1.025,-1.423l5.664,-1.888l1.888,-5.664c0.204,-0.612 0.777,-1.025 1.423,-1.025c0.646,0 1.219,0.413 1.423,1.025l1.888,5.664l5.664,1.888c0.612,0.204 1.025,0.777 1.025,1.423c0,0.646 -0.413,1.219 -1.025,1.423l-5.664,1.888l-1.888,5.664c-0.204,0.612 -0.777,1.025 -1.423,1.025zM10.5,45c-0.646,0 -1.219,-0.413 -1.423,-1.025l-1.514,-4.539l-4.538,-1.513c-0.612,-0.204 -1.025,-0.777 -1.025,-1.423c0,-0.646 0.413,-1.219 1.025,-1.423l4.538,-1.513l1.514,-4.539c0.204,-0.612 0.777,-1.025 1.423,-1.025v0c0.646,0 1.219,0.413 1.423,1.025l1.513,4.539l4.539,1.513c0.612,0.204 1.025,0.777 1.025,1.423c0,0.646 -0.413,1.219 -1.025,1.423l-4.539,1.513l-1.513,4.539c-0.204,0.612 -0.777,1.025 -1.423,1.025z">
+          </path>
+        </g>
+      </g>
+    </svg>
+  )
+}
+
 export function IAMagic() {
   return (
     <svg
@@ -44,7 +142,7 @@ export function IAMagic() {
   );
 }
 
-export function Add({}: Props) {
+export function Add({ }: Props) {
   return (
     <>
       <svg
@@ -73,7 +171,7 @@ export function Add({}: Props) {
   );
 }
 
-export default function Chat({}: Props) {
+export default function Chat({ }: Props) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -93,7 +191,7 @@ export default function Chat({}: Props) {
   );
 }
 
-export function IAs({}: Props) {
+export function IAs({ }: Props) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
