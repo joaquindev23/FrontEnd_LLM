@@ -16,9 +16,7 @@ export default function IAs({ }: Props) {
         <IACard />
       </ChatSideBar>
       <ChatContiner>
-        <div className="flex items-center">
           <ChatSender />
-        </div>
       </ChatContiner>
     </section>
   );

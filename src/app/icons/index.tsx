@@ -18,6 +18,75 @@ export function SendArrow() {
   );
 }
 
+export function BackButton(){
+  return(
+    <svg 
+    version="1.1" 
+    xmlns="http://www.w3.org/2000/svg" 
+    width="24px" 
+    height="24px" 
+    viewBox="0,0,256,256">
+      <g 
+    fill="#e5e7eb" 
+    fill-rule="nonzero" 
+    stroke="none" 
+    stroke-width="1" 
+    stroke-linecap="butt" 
+    stroke-linejoin="miter" 
+    stroke-miterlimit="10" 
+    stroke-dasharray="" 
+    stroke-dashoffset="0" 
+    font-family="none" 
+    font-weight="none" 
+    font-size="none" 
+    text-anchor="none" >
+      <g 
+    transform="scale(5.33333,5.33333)">
+      <path 
+    d="M20.586,39.414c0.391,0.391 0.902,0.586 1.414,0.586c0.512,0 1.023,-0.195 1.414,-0.586c0.781,-0.781 0.781,-2.047 0,-2.828l-10.586,-10.586h27.172c1.104,0 2,-0.896 2,-2c0,-1.104 -0.896,-2 -2,-2h-27.172l10.586,-10.586c0.781,-0.781 0.781,-2.047 0,-2.828c-0.781,-0.781 -2.047,-0.781 -2.828,0l-14,14c-0.781,0.781 -0.781,2.047 0,2.828z">
+      </path>
+    </g>
+    </g>
+    </svg>
+  )
+}
+
+export function Clear() {
+  return (
+    <svg
+      version="1.1"
+      xmlns="http://www.w3.org/2000/svg"
+      width="24px"
+      height="24px"
+      viewBox="0,0,256,256">
+      <g
+        className="fill-[#e5e7eb]"
+        fill-rule="nonzero"
+        stroke="none"
+        stroke-width="1"
+        stroke-linecap="butt"
+        stroke-linejoin="miter"
+        stroke-miterlimit="10"
+        stroke-dasharray=""
+        stroke-dashoffset="0"
+        font-family="none"
+        font-weight="none"
+        font-size="none"
+        text-anchor="none"
+      >
+        <g
+          transform="scale(10.66667,10.66667)">
+          <path
+            d="M22.1875,0.5l-4.125,7.96875c-0.08594,-0.03516 -0.34375,-0.14453 -0.375,-0.15625c-1.39844,-0.60156 -3.08203,-0.02344 -3.78125,1.375l8.6875,3.90625c0.69922,-1.5 -0.00781,-3.17969 -1.40625,-3.78125c-0.03125,-0.01172 -0.26953,-0.125 -0.34375,-0.15625l3.15625,-8.34375zM1.5,2c-0.82812,0 -1.5,0.67188 -1.5,1.5c0,0.82813 0.67188,1.5 1.5,1.5c0.82813,0 1.5,-0.67187 1.5,-1.5c0,-0.82812 -0.67187,-1.5 -1.5,-1.5zM6,3c-0.55078,0 -1,0.44922 -1,1c0,0.55078 0.44922,1 1,1c0.55078,0 1,-0.44922 1,-1c0,-0.55078 -0.44922,-1 -1,-1zM5.5,7c-1.37891,0 -2.5,1.12109 -2.5,2.5c0,1.37891 1.12109,2.5 2.5,2.5c1.37891,0 2.5,-1.12109 2.5,-2.5c0,-1.37891 -1.12109,-2.5 -2.5,-2.5zM13.125,11.03125c-0.97266,1.86328 -2.97656,3.01563 -4.9375,3.65625c-0.98047,0.32031 -1.92187,0.51953 -2.6875,0.625c-0.76562,0.10547 -1.40625,0.10156 -1.5,0.09375l-1.09375,-0.09375v1.5625l0.21875,0.28125c5.51563,6.57422 13.9375,6.84375 13.9375,6.84375l0.5,0.03125l0.3125,-0.40625c0,0 2.43359,-2.95703 4.28125,-8.5l-1.90625,-0.65625c-1.54297,4.62891 -3.20312,6.88672 -3.625,7.4375c-0.26953,-0.01562 -1.19922,-0.12109 -2.5,-0.46875c0.42578,-0.5 1.11328,-1.47266 1.875,-3.25c-2.04297,1.86328 -3.36328,2.375 -4.09375,2.5c-0.75781,-0.30078 -1.55078,-0.66016 -2.375,-1.125c0.36719,-0.36328 0.875,-0.98437 1.46875,-2.0625c-0.78906,0.85156 -1.86719,1.21484 -2.625,1.375c-0.72656,-0.48047 -1.44531,-1.04297 -2.15625,-1.6875c0.78516,-0.125 1.64453,-0.28125 2.59375,-0.59375c2.23828,-0.73437 4.73828,-2.08984 6.0625,-4.625z">
+          </path>
+        </g>
+      </g>
+    </svg>
+
+
+  )
+}
+
 export function PeperClip() {
   return (
     <svg version="1.1"
@@ -27,7 +96,7 @@ export function PeperClip() {
       height="32px"
       viewBox="0,0,256,256">
       <g
-          className="fill-[#ababab] group-hover:fill-core-primary"
+        className="fill-[#ababab] group-hover:fill-core-primary"
         fill-rule="nonzero"
         stroke="none"
         stroke-width="1"
@@ -59,7 +128,7 @@ export function NewSendArrow() {
       height="48px"
       viewBox="0,0,256,256">
       <g
-      className="fill-[#ababab] group-hover:fill-core-primary"
+        className="fill-[#ababab] group-hover:fill-core-primary"
         fill-rule="nonzero"
         stroke="none"
         stroke-width="1"
@@ -92,7 +161,7 @@ export function NewIAMagic() {
       height="48px"
       viewBox="0,0,256,256">
       <g
-         className="fill-[#ababab] group-hover:fill-core-primary"
+        className="fill-[#ababab] group-hover:fill-core-primary"
         fill-rule="nonzero"
         stroke="none"
         stroke-width="1"
