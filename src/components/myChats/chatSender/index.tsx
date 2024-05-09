@@ -1,23 +1,13 @@
 'use client'
 import { NewIAMagic, NewSendArrow, PeperClip } from "@/app/icons";
 import { SendMessageContext } from "@/contex/sendMessageContext";
+import useSendMessage from "@/hooks/useSendMessage";
 import React, { useContext, useEffect, useState } from "react";
 
 type Props = {};
 
 export default function ChatSender({ }: Props) {
-  const [customInputValue, setCustomInputValue] = useState('')
-  
-  const {sendMessages, setSendMessages} = useContext(SendMessageContext)
-  async function inputExtract() {
-    const newMessage = [...sendMessages, { text: customInputValue, isUser: true }]
-    setSendMessages(() => newMessage)
-    setCustomInputValue('')
-  }
-
-  useEffect(() => {
-    localStorage.setItem("userMessage", JSON.stringify({ sendMessages }))
-  }, [sendMessages])
+const [customInputValue, setCustomInputValue, inputExtract]=useSendMessage() as any
 
   return (
     <form action={inputExtract} className="self-baseline bg-core-secBg space-x-5 flex items-center py-2 px-5 shadow-lg w-full rounded-xl h-12">
