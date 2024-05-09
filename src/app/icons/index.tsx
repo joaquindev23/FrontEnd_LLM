@@ -18,35 +18,35 @@ export function SendArrow() {
   );
 }
 
-export function BackButton(){
-  return(
-    <svg 
-    version="1.1" 
-    xmlns="http://www.w3.org/2000/svg" 
-    width="24px" 
-    height="24px" 
-    viewBox="0,0,256,256">
-      <g 
-    fill="#e5e7eb" 
-    fill-rule="nonzero" 
-    stroke="none" 
-    stroke-width="1" 
-    stroke-linecap="butt" 
-    stroke-linejoin="miter" 
-    stroke-miterlimit="10" 
-    stroke-dasharray="" 
-    stroke-dashoffset="0" 
-    font-family="none" 
-    font-weight="none" 
-    font-size="none" 
-    text-anchor="none" >
-      <g 
-    transform="scale(5.33333,5.33333)">
-      <path 
-    d="M20.586,39.414c0.391,0.391 0.902,0.586 1.414,0.586c0.512,0 1.023,-0.195 1.414,-0.586c0.781,-0.781 0.781,-2.047 0,-2.828l-10.586,-10.586h27.172c1.104,0 2,-0.896 2,-2c0,-1.104 -0.896,-2 -2,-2h-27.172l10.586,-10.586c0.781,-0.781 0.781,-2.047 0,-2.828c-0.781,-0.781 -2.047,-0.781 -2.828,0l-14,14c-0.781,0.781 -0.781,2.047 0,2.828z">
-      </path>
-    </g>
-    </g>
+export function BackButton() {
+  return (
+    <svg
+      version="1.1"
+      xmlns="http://www.w3.org/2000/svg"
+      width="24px"
+      height="24px"
+      viewBox="0,0,256,256">
+      <g
+        fill="#e5e7eb"
+        fill-rule="nonzero"
+        stroke="none"
+        stroke-width="1"
+        stroke-linecap="butt"
+        stroke-linejoin="miter"
+        stroke-miterlimit="10"
+        stroke-dasharray=""
+        stroke-dashoffset="0"
+        font-family="none"
+        font-weight="none"
+        font-size="none"
+        text-anchor="none" >
+        <g
+          transform="scale(5.33333,5.33333)">
+          <path
+            d="M20.586,39.414c0.391,0.391 0.902,0.586 1.414,0.586c0.512,0 1.023,-0.195 1.414,-0.586c0.781,-0.781 0.781,-2.047 0,-2.828l-10.586,-10.586h27.172c1.104,0 2,-0.896 2,-2c0,-1.104 -0.896,-2 -2,-2h-27.172l10.586,-10.586c0.781,-0.781 0.781,-2.047 0,-2.828c-0.781,-0.781 -2.047,-0.781 -2.828,0l-14,14c-0.781,0.781 -0.781,2.047 0,2.828z">
+          </path>
+        </g>
+      </g>
     </svg>
   )
 }
@@ -120,7 +120,7 @@ export function PeperClip() {
   )
 }
 
-export function NewSendArrow() {
+export function NewSendArrow({ customInputValue }: any) {
   return (
     <svg version="1.1"
       xmlns="http://www.w3.org/2000/svg"
@@ -128,7 +128,7 @@ export function NewSendArrow() {
       height="48px"
       viewBox="0,0,256,256">
       <g
-        className="fill-[#ababab] group-hover:fill-core-primary"
+        className={"fill-[#ababab] " + (customInputValue.trim() && "fill-core-primary")}
         fill-rule="nonzero"
         stroke="none"
         stroke-width="1"
