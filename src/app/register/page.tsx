@@ -12,9 +12,9 @@ export default function Login() {
         <>
             <DivMain>
                 <ContentMain>
-                    <div className="flex flex-col justify-center items-start relative w-3/5 mt-16">
+                    <div className="flex flex-col justify-center items-start relative mt-16 max-sm:w-11/12 md:w-3/5 xl:w-3/5">
                         <h2 className="text-3xl font-medium mb-5">Registro</h2>
-                        <p className="text-base font-normal">Si ya tienes una cuenta inicia sesión</p>
+                        <p className="text-base font-normal max-sm:w-[289px]">Si ya tienes una cuenta inicia sesión</p>
                         <p className="text-base font-normal">Puedes <Link className="font-semibold text-blue-500" href={"/login"}>Ingresar Aquí!</Link></p>
 
                         <form action="" className="mt-12 w-full">
@@ -36,14 +36,14 @@ export default function Login() {
                                 <label htmlFor="password" className="font-medium text-sm text-gray-400 mb-2">Password</label>
                                 <div className="flex">
                                     <Image className="me-2" src="/assets/lock.svg" alt="password" width={17} height={17} />
-                                    <input type="password" name="password" id="password" placeholder="Ingresa tu contraseña" />
+                                    <input className="w-full" type="password" name="password" id="password" placeholder="Ingresa tu contraseña" />
                                 </div>
                             </div>
                             <div className="flex flex-col mb-12 field">
                                 <label htmlFor="password" className="font-medium text-sm text-gray-400 mb-2">Confirm Password</label>
                                 <div className="flex">
                                     <Image className="me-2" src="/assets/lock.svg" alt="password" width={17} height={17} />
-                                    <input type="password" name="password" id="password" placeholder="Confirma tu contraseña" />
+                                    <input className="w-full" type="password" name="password" id="password" placeholder="Confirma tu contraseña" />
                                 </div>
                             </div>
 
