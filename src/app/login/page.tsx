@@ -12,7 +12,7 @@ export default function Login() {
         <>
             <DivMain>
                 <ContentMain>
-                    <div className="flex flex-col justify-center items-start relative w-3/5">
+                    <div className="flex flex-col justify-center items-start relative max-sm:w-11/12 sm:w-3/5 xl:w-3/5">
                         <h2 className="text-3xl font-medium mb-5">Iniciar sesión</h2>
                         <p className="text-base font-normal">Si no tienes una cuenta regístrate</p>
                         <p className="text-base font-normal">Puedes <Link className="font-semibold text-blue-500" href={"/register"}>Registrarte Aquí!</Link></p>
@@ -20,19 +20,19 @@ export default function Login() {
                         <form action="" className="mt-12 w-full">
                             <div className="flex flex-col mb-12 field">
                                 <label htmlFor="email" className="font-medium text-sm text-gray-400 mb-2">Email</label>
-                                <div className="flex">
+                                <div className="flex w-full">
                                     <Image className="me-2" src="/assets/email.svg" alt="email" width={17} height={13} />
                                     <input className="w-full" type="email" name="email" id="email" placeholder="Introduce tu dirección de correo electrónico" />
                                 </div>
                             </div>
                             <div className="flex flex-col mb-4 field">
                                 <label htmlFor="password" className="font-medium text-sm text-gray-400 mb-2">Password</label>
-                                <div className="flex">
+                                <div className="flex sm:w-full">
                                     <Image className="me-2" src="/assets/lock.svg" alt="email" width={17} height={17} />
-                                    <input type="password" name="password" id="password" placeholder="Ingresa tu contraseña" />
+                                    <input className="sm:w-full" type="password" name="password" id="password" placeholder="Ingresa tu contraseña" />
                                 </div>
                             </div>
-                            <div className="flex justify-between items-center mb-12">
+                            <div className="flex justify-between items-center max-sm:flex-col max-sm:items-start max-sm:mb-10 sm:flex-col sm:mb-10 sm:items-start xl:flex-row xl:mb-12">
                                 <div>
                                     <input type="checkbox" name="remindMe" id="remindMe" className="me-2" />
                                     <label htmlFor="remindMe" className="font-light text-xs">Acuérdate de mí</label>

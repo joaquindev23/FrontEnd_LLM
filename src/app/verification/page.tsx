@@ -12,7 +12,7 @@ export default function Login() {
         <>
             <DivMain>
                 <ContentMain>
-                    <div className="flex flex-col justify-center items-start relative w-3/5">
+                    <div className="flex flex-col justify-center items-start relative max-sm:w-10/12 sm:w-10/12 xl:w-3/5">
                         <h2 className="text-3xl font-medium mb-5">Tu cuenta fue creada con exito!</h2>
                         <p className="text-base font-normal mb-12">Te hemos enviado un correo electronico para que puedas veriricar tus datos y saber que eres una persona humana.
                         <span className="block mt-6">Por favor verifique su cuenta para poder empezar a usar el sistema.</span></p>

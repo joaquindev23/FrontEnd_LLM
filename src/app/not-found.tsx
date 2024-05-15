@@ -12,7 +12,7 @@ export default function Custom404() {
     <>
       <DivMain>
         <ContentMain>
-          <div className="flex flex-col justify-around relative bottom-8 items-center w-3/5 h-2/4">
+          <div className="flex flex-col relative bottom-8 items-center max-sm:justify-around sm:justify-around xl-justify-around w-3/5 h-2/4">
             <h2 className="text-3xl font-medium mb-5"></h2>
 
             <h1 className="text-2xl font-black">¡OOOPS!</h1>
