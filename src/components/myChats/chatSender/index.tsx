@@ -13,7 +13,7 @@ export default function ChatSender({ }: Props) {
 
   const SendFileBox = (e: any) => {
     e.preventDefault()
-    setShowComponent(true)
+    setShowComponent(!showComponent)
   }
 
   return (
